@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "https://ahemerijckx.github.io/static/css/main.fbc00891.css",
-    "main.js": "https://ahemerijckx.github.io/static/js/main.5c524cdf.js",
-    "index.html": "https://ahemerijckx.github.io/index.html"
+    "main.css": "/static/css/main.fbc00891.css",
+    "main.js": "/static/js/main.83e3dd3f.js",
+    "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.fbc00891.css",
-    "static/js/main.5c524cdf.js"
+    "static/js/main.83e3dd3f.js"
   ]
 }
