@@ -1,5 +1,5 @@
 {
-    "homepage": "https://ahemerijckx.github.io/ahemerijckx.github.io",
+    "homepage": "https://ahemerijckx.github.io",
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
@@ -21,8 +21,8 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "predeploy": "yarn build && cmd copy build/index.html build/404.html",
-        "deploy": "gh-pages -d build"
+        "predeploy": "yarn build",
+        "deploy": "gh-pages -b master -d build"
     },
     "eslintConfig": {
         "extends": [
