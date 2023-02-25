@@ -1,12 +1,13 @@
 import React from "react";
 import "./style.css";
 import {
-  FaGithub,
-  FaTwitter,
-  FaFacebookF,
-  FaLinkedin,
-  FaYoutube,
-  FaTwitch,
+    FaGithub,
+    FaTwitter,
+    FaFacebookF,
+    FaLinkedin,
+    FaYoutube,
+    FaTwitch,
+    FaInstagram,
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
@@ -21,17 +22,25 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        {socialprofils.github && (
-          <li>
-            <a href={socialprofils.github}>
-              <FaGithub />
-            </a>
-          </li>
-        )}
+
         {socialprofils.facebook && (
           <li>
             <a href={socialprofils.facebook}>
               <FaFacebookF />
+            </a>
+          </li>
+        )}
+          {socialprofils.instagram && (
+          <li>
+            <a href={socialprofils.instagram}>
+              <FaInstagram />
+            </a>
+          </li>
+        )}
+          {socialprofils.github && (
+          <li>
+            <a href={socialprofils.github}>
+              <FaGithub />
             </a>
           </li>
         )}

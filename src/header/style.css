@@ -11,6 +11,7 @@
 .menu__button:focus,
 .menu__button:hover {
     color: var(--text-color);
+    fill: var(--text-color);
     box-shadow: unset;
 }
 
@@ -19,6 +20,12 @@
     height: 2em;
     fill: var(--text-color-2);
     color: var(--text-color-2);
+}
+
+.menu__button svg:hover {
+    color: var(--text-color-3);
+    fill: var(--text-color-3);
+    box-shadow: unset;
 }
 
 .nav_ac {
@@ -36,7 +43,7 @@
 }
 
 .nav_ac:hover {
-    color: var(--text-color-2);
+    color: var(--text-color-3);
 }
 
 .br-top,

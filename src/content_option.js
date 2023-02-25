@@ -1,47 +1,95 @@
-import profilepic from './pages/home/img.png'
 const logotext = "Arne Hemerijckx";
 const meta = {
-    title: "Arne Hemerijckx",
-    description: "I'm Arne Hemerijckx. This resume is a work in progress",
+    title: "Arne",
+    description: "I'm Arne Hemerijckx. This resume is a work in progress.",
 };
 
 const introdata = {
     title: "I’m Arne Hemerijckx.",
     animated: {
-        first: "I love coding",
-        second: "I coded this website",
-        third: "I design PCBs",
+        first: "I'm an electrical engineering student.",
+        second: "I'm in my second master.",
+        third: "I design PCBs.",
+        fourth: "Looking to hire me?",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: profilepic,
+    description: "This resume is a work in progress.",
 };
 
 const dataabout = {
-    title: "a bit about my self",
+    title: "A bit about myself",
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
-const worktimeline = [{
-        jobtitle: "Student job NMBS TucRail transformer",
-        where: "NMBS CW Mechelen",
-        date: "August 2022",
+const educationtimeline = [
+    // {
+    //     title: "Bachelor of Science in Engineering:",
+    //     subtitle: "Electrical Engineering",
+    //     where: "Ghent University",
+    //     date: "2018 - 2022",
+    // }, // imi?
+    {
+        title: "Bachelor of Science in Engineering:",
+        subtitle: "Electrical Engineering",
+        where: "Ghent University",
+        date: "2018 - 2022",
+    },
+    {
+        title: "Master of Science in Electrical Engineering:",
+        subtitle: "Electronic Circuits and Systems",
+        where: "Ghent University",
+        date: "2018 - 2022",
     },
 ];
 
-const skills = [{
+const skills = [
+    {
+        name: "ADS",
+        value: 90,
+    },
+    {
+        name: "CST",
+        value: 40,
+    },
+    {
+        name: "KiCad, EasyEDA",
+        value: 90,
+    },
+    {
+        name: "Cadence",
+        value: 30,
+    },
+    {
         name: "Python",
         value: 90,
+    },
+    {
+        name: "C, C++",
+        value: 70,
+    },
+    {
+        name: "MATLAB",
+        value: 70,
+    },
+    {
+        name: "VHDL",
+        value: 30,
+    },
+    {
+        name: "LabView",
+        value: 50,
     },
 ];
 
 const services = [{
-        title: "Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: " Student job NMBS TucRail transformer",
+        where: "NMBS CW Mechelen",
+        date: "August 2022",
+        description: "Design of PCBs to charge electric cars by use of the overhead lines.",
     },
 ];
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "Audio Amplifier Measurement system PCB",
         link: "#",
     },
 ];
@@ -49,7 +97,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "arne.hemerijckx@gmail.com",
     YOUR_FONE: "+32 493 49 27 49",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "The email function is not working yet.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -58,16 +106,16 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
+    facebook: "https://facebook.com/arne.hemerijckx",
+    instagram: "https://www.instagram.com/arne_hemerijckx/",
+    github: "https://github.com/ahemerijckx",
     linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+    educationtimeline,
     skills,
     services,
     introdata,
