@@ -92,6 +92,7 @@ section {
 }
 
 .intro_sec .h_bg-image {
+    background-image: url("/src/assets/Profile_pic.jpg");
     background-size: cover;
     background-position: center;
     min-height: 700px;
