@@ -40,7 +40,7 @@ export const ContactUs = () => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! ,Thank you for your message",
             variant: "success",
             show: true,
           });
@@ -48,8 +48,8 @@ export const ContactUs = () => {
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
-            variant: "danger",
+            alertmessage: `Failed to send!,${error.text}`,
+            variant: "fail",
             show: true,
           });
           document.getElementsByClassName("co_alert")[0].scrollIntoView();
@@ -95,13 +95,24 @@ export const ContactUs = () => {
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
-              <strong>Email:</strong>{" "}
-              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
-                {contactConfig.YOUR_EMAIL}
-              </a>
+              <strong>Email:</strong>{" "} <br/>
+                <ul id="listelement">
+                  <li>
+                    <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
+                    {contactConfig.YOUR_EMAIL}
+                    </a>
+                  </li>
+                <br/>
+                  <li>
+                    <a href={`mailto:${contactConfig.SECOND_EMAIL}`}>
+                    {contactConfig.SECOND_EMAIL}
+                    </a>
+                  </li>
+                </ul>
+
               <br />
               <br />
-              {contactConfig.hasOwnProperty("YOUR_FONE") ? (
+              {contactConfig.hasOwnProperty("YOUR_PHONE") ? (
                 <p>
                   <strong>Phone:</strong> {contactConfig.YOUR_FONE}
                 </p>

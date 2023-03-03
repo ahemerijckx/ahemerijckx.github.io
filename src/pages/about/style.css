@@ -103,3 +103,9 @@
         transform: translateZ(0);
     }
 }
+
+#listelement {
+    list-style-type: circle;
+    text-indent: 0;
+    padding-left: 10%;
+}

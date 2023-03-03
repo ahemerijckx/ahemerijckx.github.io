@@ -1,7 +1,7 @@
 const logotext = "Arne Hemerijckx";
 const meta = {
     title: "Arne",
-    description: "I'm Arne Hemerijckx. This resume is a work in progress.",
+description: "Arne Hemerijckx",
 };
 
 const introdata = {
@@ -9,23 +9,23 @@ const introdata = {
     animated: {
         first: "I'm an electrical engineering student.",
         second: "I'm in my second master.",
-        third: "I design PCBs.",
-        fourth: "Looking to hire me?",
+        third: "Looking to hire me? : )",
+        fourth: "I play spikeball.",
     },
-    description: "This resume is a work in progress.",
+    description: "Motivated Electrical Engineering student at Ghent University. In Ghent during the academic semester, during the weekends and outside of the academic semester in Roosdaal.",
 };
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "I'm an Electrical Engineering student at UGent. I'm currently in my second master of Electronic Circuits and Systems."
+    // + "My main interests are ...",
 };
 const educationtimeline = [
-    // {
-    //     title: "Bachelor of Science in Engineering:",
-    //     subtitle: "Electrical Engineering",
-    //     where: "Ghent University",
-    //     date: "2018 - 2022",
-    // }, // imi?
+    {
+        title: "Science Mathematics",
+        where: "Immaculata Maria-Instituut",
+        date: "2012 - 2018",
+    }, // imi?
     {
         title: "Bachelor of Science in Engineering:",
         subtitle: "Electrical Engineering",
@@ -37,13 +37,15 @@ const educationtimeline = [
         subtitle: "Electronic Circuits and Systems",
         where: "Ghent University",
         date: "2018 - 2022",
+        electives: ["Advanced Analog Design", "Digital Building Blocks", "Power Electronics", "Avionics", "Display Technology",
+             "Audio Engineering"],
     },
 ];
 
 const skills = [
     {
         name: "ADS",
-        value: 90,
+        value: 70,
     },
     {
         name: "CST",
@@ -80,46 +82,53 @@ const skills = [
 ];
 
 const services = [{
-        title: " Student job NMBS TucRail transformer",
+        title: "Student job NMBS TucRail transformer",
         where: "NMBS CW Mechelen",
         date: "August 2022",
         description: "Design of PCBs to charge electric cars by use of the overhead lines.",
     },
 ];
 
-const dataportfolio = [{
+const dataprojects = [
+    {
         img: "https://picsum.photos/400/?grayscale",
         desctiption: "Audio Amplifier Measurement system PCB",
-        link: "#",
+        link: "",
+    },
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        desctiption: "NMBS TucRail transformer",
+        link: "",
     },
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "arne.hemerijckx@gmail.com",
-    YOUR_FONE: "+32 493 49 27 49",
-    description: "The email function is not working yet.",
+    SECOND_EMAIL: "arne.hemerijckx@ugent.be",
+    // YOUR_PHONE: "",
+    description: "",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_deb5whs",
+    YOUR_TEMPLATE_ID: "template_w3yyysn",
+    YOUR_USER_ID: "xe-MAePMnf1QsMWBv",
 };
 
-const socialprofils = {
+const socialprofiles = {
     facebook: "https://facebook.com/arne.hemerijckx",
     instagram: "https://www.instagram.com/arne_hemerijckx/",
     github: "https://github.com/ahemerijckx",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://linkedin.com/in/arne-hemerijckx-27381b268",
 };
 export {
     meta,
     dataabout,
-    dataportfolio,
+    dataprojects,
     educationtimeline,
     skills,
     services,
     introdata,
     contactConfig,
-    socialprofils,
+    socialprofiles,
     logotext,
 };
