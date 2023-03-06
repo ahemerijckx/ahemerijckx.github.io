@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c77eff5.css",
-    "main.js": "/static/js/main.c1ac8316.js",
+    "main.css": "/static/css/main.8ab9edeb.css",
+    "main.js": "/static/js/main.22113d2d.js",
+    "static/media/pythonlogo.png": "/static/media/pythonlogo.72f803b938a449e0ac65.png",
     "static/media/Profile_pic.jpg": "/static/media/Profile_pic.0330c77e8f120ddb0310.jpg",
+    "static/media/Measurement_PCB_2.png": "/static/media/Measurement_PCB_2.d24bd954d1dda806c443.png",
+    "static/media/NMBS_PCB.png": "/static/media/NMBS_PCB.97f7d0f9744c3d183e15.png",
+    "static/media/clogo.png": "/static/media/clogo.ca4b8ca59bd6fc085064.png",
+    "static/media/cstlogo.png": "/static/media/cstlogo.37350d3ee5b106ed8bc5.png",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.0c77eff5.css",
-    "static/js/main.c1ac8316.js"
+    "static/css/main.8ab9edeb.css",
+    "static/js/main.22113d2d.js"
   ]
 }
