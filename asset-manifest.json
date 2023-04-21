@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f83ca9de.css",
-    "main.js": "/static/js/main.122a6286.js",
+    "main.css": "/static/css/main.7aeb5bf2.css",
+    "main.js": "/static/js/main.b86c3051.js",
+    "static/media/Measurement_PCB_3.png": "/static/media/Measurement_PCB_3.be9bbeac81dc0a8948fb.png",
     "static/media/pythonlogo.png": "/static/media/pythonlogo.72f803b938a449e0ac65.png",
     "static/media/Profile_pic_1.jpg": "/static/media/Profile_pic_1.0330c77e8f120ddb0310.jpg",
     "static/media/Measurement_PCB_2.png": "/static/media/Measurement_PCB_2.d24bd954d1dda806c443.png",
@@ -11,7 +12,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.f83ca9de.css",
-    "static/js/main.122a6286.js"
+    "static/css/main.7aeb5bf2.css",
+    "static/js/main.b86c3051.js"
   ]
 }
