@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.089d59bc.css",
-    "main.js": "/static/js/main.95d25243.js",
+    "main.js": "/static/js/main.a80c8627.js",
     "static/media/Measurement_PCB_3.png": "/static/media/Measurement_PCB_3.621b7a8466885530c25c.png",
     "static/media/pythonlogo.png": "/static/media/pythonlogo.72f803b938a449e0ac65.png",
     "static/media/Profile_pic_1.jpg": "/static/media/Profile_pic_1.0330c77e8f120ddb0310.jpg",
@@ -17,6 +17,6 @@
   },
   "entrypoints": [
     "static/css/main.089d59bc.css",
-    "static/js/main.95d25243.js"
+    "static/js/main.a80c8627.js"
   ]
 }
